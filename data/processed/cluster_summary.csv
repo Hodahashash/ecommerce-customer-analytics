@@ -1,0 +1,5 @@
+Cluster,Count,Avg_Recency,Avg_Frequency,Avg_Monetary,Total_Revenue,Avg_Order_Value,Percentage,Revenue_Share,Name
+1,776,13.85,13.58,7386.79,5732148.47,39.25,18.0,65.2,VIP Champions
+3,1202,81.58,4.13,1762.58,2118624.31,47.27,27.9,24.1,Regular Customers
+0,944,23.39,2.02,553.67,522665.68,22.89,21.9,5.9,New Potentials
+2,1389,188.62,1.29,303.33,421324.11,28.02,32.2,4.8,Regular Customers

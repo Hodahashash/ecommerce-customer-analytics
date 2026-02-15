@@ -1,3 +1,10 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+
 # PCA for 2D visualization
 pca = PCA(n_components=2)
 rfm_pca = pca.fit_transform(rfm_scaled)

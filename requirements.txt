@@ -1,0 +1,26 @@
+# Core Data Science Libraries
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Excel Support (REQUIRED for reading .xlsx files)
+openpyxl>=3.0.0
+xlrd>=2.0.0
+
+# Jupyter Notebooks
+jupyter>=1.0.0
+notebook>=6.5.0
+ipykernel>=6.19.0
+
+# Database (if using SQL databases)
+sqlalchemy>=2.0.0
+
+# Additional Utilities
+python-dateutil>=2.8.0
+tabulate>=0.9.0

@@ -1,0 +1,9 @@
+# Virtual Environments (YOUR REQUEST! ✓)
+venv/
+env/
+.venv
+
+# Raw Data Protected
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.csv

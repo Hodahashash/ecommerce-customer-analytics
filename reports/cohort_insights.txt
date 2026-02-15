@@ -1,0 +1,25 @@
+
+KEY FINDINGS:
+1. AVERAGE RETENTION RATES:
+   - Month 1: 100.0% (baseline)
+   - Month 3: 22.4%
+   - Month 6: 24.1%
+   - Month 12: 29.7%
+
+2. CHURN PATTERN:
+   - Steepest drop typically occurs in first 3 months
+   - Customers who survive month 3 have higher long-term retention
+
+3. COHORT QUALITY:
+   - Best performing cohort: 2009-12 (36.9% avg retention)
+   - This suggests acquisition quality varies by month (seasonality/campaigns)
+
+4. LTV CORRELATION:
+   - Strong correlation between early retention and LTV
+   - Focus on first 90 days is critical
+
+RECOMMENDATIONS:
+✓ Implement 30-60-90 day onboarding campaigns
+✓ Identify what made top cohorts successful (replicate)
+✓ Intervene at month 2-3 to prevent churn
+✓ Segment marketing by cohort age (new vs mature customers)
