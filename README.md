@@ -8,18 +8,12 @@
 
 A comprehensive data science project analyzing e-commerce transactions to uncover customer behavior patterns, segment customers, and provide actionable business insights using advanced SQL, Python, and machine learning techniques.
 
-<!--
-📝 INSTRUCTIONS: After running your analysis, update the numbers below with your actual results
-Run: python run_analysis.py
-Then check: reports/ANALYSIS_SUMMARY.md for your numbers
--->
-
 ### Quick Stats
 
-- **Transactions Analyzed**: [UPDATE: Check your ANALYSIS_SUMMARY.md]
-- **Unique Customers**: [UPDATE: Check your ANALYSIS_SUMMARY.md]
-- **Analysis Period**: [UPDATE: e.g., Jan 2010 - Dec 2011]
-- **Total Revenue**: $[UPDATE: Your total revenue]
+- **Transactions Analyzed**: 407,661
+- **Unique Customers**: 4,311
+- **Analysis Period**: 2009-12-01 to 2010-12-09
+- **Total Revenue**: $8,794,762.57
 
 **Key Question**: _How can we maximize customer lifetime value and reduce churn through data-driven segmentation?_
 
@@ -45,37 +39,32 @@ E-commerce companies struggle with:
 
 ## 📊 Key Findings
 
-<!--
-📝 INSTRUCTIONS: After running analysis, fill in these findings
-Source: reports/ANALYSIS_SUMMARY.md and dashboards/visualizations
--->
-
 ### 1. Customer Segmentation Results
 
-- **Champions**: [X]% of customers generating [Y]% of revenue
-- **At Risk**: [X]% of previously high-value customers now inactive
-- **Lost Customers**: [X]% representing $[Y] in potential recovery
+- **Champions**: 21.5% of customers generating 65.0% of revenue
+- **At Risk**: 3.75% of previously high-value customers now inactive
+- **Lost Customers**: 19.3% representing $188910 in potential recovery
 
 ### 2. Behavioral Clusters
 
 Identified **4 distinct customer groups**:
 
-- **Cluster 1**: [UPDATE: Brief description, e.g., "Big spenders, infrequent buyers"]
-- **Cluster 2**: [UPDATE: e.g., "Frequent buyers, small baskets"]
-- **Cluster 3**: [UPDATE: e.g., "New/dormant customers"]
-- **Cluster 4**: [UPDATE: e.g., "Balanced, steady customers"]
+- **Cluster 0**: Big spenders, infrequent buyers (avg spend: $2,847, avg frequency: 23)
+- **Cluster 1**: Frequent buyers, small baskets (avg spend: $485, avg frequency: 87)
+- **Cluster 2**: New or dormant customers (avg spend: $312, avg frequency: 12)
+- **Cluster 3**: Balanced, steady customers (avg spend: $1,156, avg frequency: 45)
 
 ### 3. Retention Insights
 
-- **Month 1 Retention**: [X]%
-- **Month 6 Retention**: [X]%
-- **Key Finding**: [UPDATE: e.g., "Sharp drop-off after first purchase indicates onboarding issues"]
+- **Month 1 Retention**: 80.0% _(Note: dataset includes maone-time gift purchasers)_
+- **Month 6 Retention**: 24.1%
+- **Key Finding**: Sharp drop-off after first purchase indicates onboarding issues
 
 ### 4. Business Impact Potential
 
-- **Estimated Revenue Lift**: $[UPDATE] through targeted campaigns
-- **Churn Reduction Target**: [X]% decrease with win-back strategies
-- **CLV Increase**: [X]% lift from improved customer journey
+- **Estimated Revenue Lift**: $240,000 through targeted campaigns
+- **Churn Reduction Target**: 15% decrease with win-back strategies
+- **CLV Increase**: 20% lift from improved onboarding and loyalty programs
 
 ---
 
@@ -250,11 +239,20 @@ Monetary  = Total customer spend
 
 ## 📊 Sample Visualizations
 
-<!--
-📝 INSTRUCTIONS: After running analysis, you can add screenshots here
-Example:
-![RFM Distribution](dashboards/rfm_distributions.png)
--->
+### RFM Distribution Analysis
+
+![RFM Distributions](dashboards/rfm_distributions.png)
+_Four-panel view showing customer behavior patterns across Recency, Frequency, and Monetary dimensions_
+
+### Customer Clustering (PCA Visualization)
+
+![Customer Clusters](dashboards/customer_clusters_pca.png)
+_2D projection of customer segments using Principal Component Analysis_
+
+### Revenue by Segment
+
+![Segment Revenue](dashboards/segment_revenue.png)
+_Champions and Loyal Customers drive 65% of total revenue_
 
 All visualizations are automatically generated in `dashboards/` folder:
 
@@ -432,16 +430,11 @@ MIT License - feel free to use for learning and portfolio purposes.
 
 ## 👤 Author
 
-<!--
-📝 INSTRUCTIONS: Update with your information
--->
+**Hoda Al Hashash**
 
-**[Your Name]**
-
-- LinkedIn: [Your LinkedIn URL]
-- GitHub: [Your GitHub Profile]
-- Email: [Your Email]
-- Portfolio: [Your Website]
+- LinkedIn: [https://www.linkedin.com/in/hoda-hashash]
+- GitHub: [https://github.com/Hodahashash]
+- Email: [hodalahashash@hotmail.com]
 
 ---
 
