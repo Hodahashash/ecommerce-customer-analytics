@@ -1,9 +1,14 @@
 # Virtual Environments (YOUR REQUEST! ✓)
 venv/
 env/
-.venv
+.venv/
+__pycache__/
+*.pyc
+.env
+
 
 # Raw Data Protected
+data/raw/
 data/raw/*.xlsx
 data/raw/*.xls
 data/raw/*.csv
